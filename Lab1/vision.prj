@@ -1,0 +1,80 @@
+<deployment-project plugin="plugin.toolbox" plugin-version="1.0">
+  <configuration file="C:\Users\João\Documents\IST\5º Ano\PIV\lab1\vision.prj" location="C:\Users\João\Documents\IST\5º Ano\PIV\lab1" name="vision" target="target.toolbox" target-name="Package Toolbox">
+    <param.appname>vision</param.appname>
+    <param.authnamewatermark />
+    <param.email />
+    <param.company />
+    <param.summary />
+    <param.description />
+    <param.screenshot />
+    <param.version>1.0</param.version>
+    <param.output>${PROJECT_ROOT}\vision.mltbx</param.output>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.guid />
+    <param.exclude.filters />
+    <param.examples>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;examples/&gt;</param.examples>
+    <param.demosxml />
+    <param.apps />
+    <param.docs>${MATLAB_ROOT}\toolbox\vision\vision\info.xml</param.docs>
+    <unset>
+      <param.authnamewatermark />
+      <param.email />
+      <param.company />
+      <param.summary />
+      <param.description />
+      <param.screenshot />
+      <param.version />
+      <param.output />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+      <param.guid />
+      <param.exclude.filters />
+      <param.demosxml />
+      <param.apps />
+    </unset>
+    <fileset.rootdir>
+      <file>${MATLAB_ROOT}\toolbox\vision</file>
+    </fileset.rootdir>
+    <fileset.rootfiles>
+      <file>${MATLAB_ROOT}\toolbox\vision\include</file>
+      <file>${MATLAB_ROOT}\toolbox\vision\vision</file>
+      <file>${MATLAB_ROOT}\toolbox\vision\visiondata</file>
+      <file>${MATLAB_ROOT}\toolbox\vision\visiondemos</file>
+      <file>${MATLAB_ROOT}\toolbox\vision\visionrt</file>
+      <file>${MATLAB_ROOT}\toolbox\vision\visionutilities</file>
+      <file>${MATLAB_ROOT}\toolbox\vision\win32</file>
+    </fileset.rootfiles>
+    <fileset.depfun.included />
+    <fileset.depfun.excluded />
+    <fileset.package />
+    <build-deliverables>
+      <file location="C:\Users\João\Documents\IST\5º Ano\PIV\lab1" name="vision.mltbx" optional="false">C:\Users\João\Documents\IST\5º Ano\PIV\lab1\vision.mltbx</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2015a</root>
+      <toolboxes />
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>6.2</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
